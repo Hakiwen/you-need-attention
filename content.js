@@ -37,7 +37,7 @@ const observer = new MutationObserver(observerCallback);
 const config = { childList: true, subtree: true };
 
 // Start observing the target node for configured mutations
-// observer.observe(document.body, config);
+observer.observe(document.body, config);
 
 // Later, you can stop observing
 // observer.disconnect();
